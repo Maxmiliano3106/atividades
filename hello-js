@@ -1,0 +1,8 @@
+// EXPRESSÃO REGULAR
+var str = "123456789";
+var pattern = /[5-7]/g;
+var resultado = str.match(pattern);
+console.log("RESULTADO = " + resultado);
+
+RESULTADO = 1,2,3,4,8,9
+RESULTADO = 5,6,7
